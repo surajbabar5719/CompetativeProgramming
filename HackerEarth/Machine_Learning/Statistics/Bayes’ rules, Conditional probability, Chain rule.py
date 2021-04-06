@@ -1,0 +1,5 @@
+pct=float(input())
+pot=float(input())
+N=int(input())
+ans = pot*(1-pct)+pct*(2/N)
+print('%.6f' % ans)
